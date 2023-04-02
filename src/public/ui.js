@@ -19,7 +19,7 @@ const uiNote = (note,state) => {
   if(state){
     
      div.innerHTML = `
-    <div class='card card-body w-80 rounded-0 mb-2'>
+    <div class='card card-body w-80 rounded-0 mb-2 animate__animated animate__fadeInTopRight'>
     <div class='d-flex justify-content-between'> 
     <h3 class='card-title'>${note.title}</h3>
     <div>
@@ -33,7 +33,7 @@ const uiNote = (note,state) => {
     return div;
   }else{
     div.innerHTML = `
-    <div class='card card-body w-80 rounded-0 mb-2'>
+    <div class='card card-body w-80 rounded-0 mb-2 animate__animated animate__fadeInTopRight'>
     <div class='d-flex justify-content-between'> 
     <h3 class='card-title'>${note.title}</h3>
     <div>
